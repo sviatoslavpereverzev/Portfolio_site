@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 	<link rel="stylesheet" href="static/css/base.css" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand" rel="stylesheet">
 	<title>SP</title>
 </head>
 
@@ -152,38 +153,41 @@
 <!-----Main----->
 <section class="main col-md-9 offset-md-3 offset-xl-2  col-xl-10 adaptive ">
 	<div class="drop_menu" id="dm">
-		<img src="static/image/project.png" alt="">
+		<img src="static/image/project.png" alt="" class="left">
 		<img src="static/image/project_right.png" alt="" class="right">
 	</div>
-	<div class="">
-		<div class="about_me">
-			<div class="about_me_one" id="about_me1">
-				<div class="image_fon">
-					<img src="static/image/3.jpg" alt="" class="image_fon">
+	<div class="about_me">
+		<div class="about_me_one" id="about_me1">
+			<div class="image_fon">
+				<img src="static/image/3.jpg" alt="" class="image_fon">
+			</div>
+			<div class="text">
+				<div class="center text-center">
+					<p>Hello!</p>
+					<p>My name is Sviatoslav Pereverziev</p>
+					<p>I'm full stack web developer</p>
 				</div>
-				<div class="text">
-					<div class="center text-center">
-						<p>Привет, меня зовут Святослав Переверзев</p>
-						<p>Я Full Stack Web Developer </p>
-					</div>
-					<div class="download">
-						<p>
-							Загрузить портфолио
-							<img src="static/image/icons8-downloading-updates-32.png" alt="">
-						</p>
-					</div>
-					<div class="social_network ">
-						<img src="static/image/icons8-github-32.png" alt="">
-						<img src="static/image/icons8-gmail-32.png" alt="">
-						<img src="static/image/icons8-facebook-32.png" alt="">
-						<img src="static/image/icons8-telegram-app-32.png" alt="">
-						<img src="static/image/icons8-instagram-32.png" alt="">
-						<img src="static/image/icons8-twitter-32.png" alt="">
-					</div>
+				<div class="download">
+					<p>
+						Download portfolio
+						<img src="static/image/icons8-downloading-updates-32.png" alt="">
+					</p>
+				</div>
+				<div class="social_network ">
+					<a href="https://github.com/sviatoslavpereverzev"><img src="static/image/icons8-github-32.png"
+																		   alt=""></a><a href=""><img
+						src="static/image/icons8-gmail-32.png" alt=""></a><a
+						href="https://www.facebook.com/pereverzev.slavik"><img src="static/image/icons8-facebook-32.png"
+																			   alt=""></a><a href=""><img
+						src="static/image/icons8-telegram-app-32.png" alt=""></a><a
+						href="https://www.instagram.com/pereverzevslavik"><img
+						src="static/image/icons8-instagram-32.png" alt=""></a><a href="https://twitter.com/slavik214vk"><img
+						src="static/image/icons8-twitter-32.png" alt=""></a>
 				</div>
 			</div>
-			<div class="about_me_two" id="about_me2">
-				<div class="str">
+		</div>
+		<div class="about_me_two " id="about_me2">
+			<div class="str">
 				<pre class="green">"""
     Я программист который стремится развиваться и получать новые знания.
     Я люблю то, чем занимаюсь и хочу получать от этого удовольствие.
@@ -192,10 +196,10 @@
 
 """
 				</pre>
-				</div>
 			</div>
 		</div>
-		<div class="skills">
+	</div>
+	<div class="skills padding">
 		<pre><span>My_skills = {</span>
 
     <span class="green">'Back_End'<span>:</span></span>
@@ -214,8 +218,8 @@
         <span>}</span>
 <span>}</span>
 		</pre>
-		</div>
-		<div class="contacts" id="contacts">
+	</div>
+	<div class="contacts padding" id="contacts">
 		<pre><span>Contacts = {}</span>
 <span>Contacts[</span><span class="green">'Phone'</span><span>] =</span> <a href="tel:+380639206697" class="green">'+ 380 63 920 66 97'</a>
 <span>Contacts[</span><span class="green">'Mail'</span><span>] =</span> <span class="green">'sviatoslav.pereverziev@gmail.com'</span>
@@ -225,12 +229,12 @@
 					href="https://www.facebook.com/pereverzev.slavik" class="green">'pereverzev.slavik'</a>
 <span>Contacts[</span><span class="green">'Telegram'</span><span>] =</span> <span class="green">'@sviatoslav_pereverziev'</span>
 <span>Contacts[</span><span class="green">'Instagram'</span><span>] =</span> <a
-					href="https://www.instagram.com/pereverzevslavik/" class="green">'pereverzevslavik'</a>
+					href="https://www.instagram.com/pereverzevslavik" class="green">'pereverzevslavik'</a>
 <span>Contacts[</span><span class="green">'Twitter'</span><span>] =</span> <a href="https://twitter.com/slavik214vk"
 																			  class="green">'sviatoslavpereverzev'</a>
 		</pre>
-		</div>
-		<div class="program">
+	</div>
+	<div class="program padding">
 		<pre><span class="orange">if</span> <span>__name__ ==</span> <span class="green">'__main__'</span><span>:</span>
     <span class="violet">print</span> <span>(</span><span class="green">'Hello world!'</span><span>)</span>
 
@@ -241,7 +245,6 @@
         <span class="grey">#or choose another way</span>
 
 		</pre>
-		</div>
 	</div>
 </section>
 
