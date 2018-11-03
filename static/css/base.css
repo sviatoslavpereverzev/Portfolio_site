@@ -8,7 +8,6 @@ a, a:hover, a:visited {
     outline: none;
 }
 
-
 span {
     color: #bbbbbb;
     font-size: 10pt;
@@ -31,11 +30,13 @@ span {
 }
 
 .adaptive {
-    padding: 0!important;
+    padding: 0 !important;
 }
+
 .row {
     margin: 0 !important;
 }
+
 
 header {
     position: fixed;
@@ -48,11 +49,10 @@ header {
     font-family: Arial;
 }
 
-
-    header span {
-        color: #bbbbbb;
-        font-size: 10pt;
-    }
+header span {
+    color: #bbbbbb;
+    font-size: 10pt;
+}
 
     header .search {
         position: fixed;
@@ -70,13 +70,10 @@ nav {
     z-index: 2;
     position: fixed !important;
     top: 32px;
-    /*width: 15%;*/
     height: 100%;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: #323232;
-    /*border-right-width: 1px;*/
-    /*border-right-style: solid;*/
     background-color: #3c3f41;
 }
 
@@ -113,21 +110,15 @@ nav {
 
 .main {
     position: absolute;
-    /*top: 32px;*/
     margin-top: 32px;
-    /*left: 15%;*/
     height: 100%;
-    /*width: 85%;*/
-    overflow-x: scroll!important;
-
-    /*font-family: "Courier New";*/
-    /*font-size: 3pt;*/
+    overflow-x: scroll !important;
     background-color: #2b2b2b;
 }
 
-   .main a:visited {
-  text-decoration: none!important;
-}
+    .main a:visited {
+        text-decoration: none !important;
+    }
 
     .main .drop_menu {
         position: static;
@@ -143,28 +134,24 @@ nav {
 
     }
 
-    .main .drop_menu img {
-        margin-bottom: 15px;
-    }
+        .main .drop_menu img {
+            margin-bottom: 15px;
+        }
 
-    .main .drop_menu .right {
-        position: absolute;
-        right: 10px;
-        top: 5px;
-    }
+        .main .drop_menu .right {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
 
-    /*.main span, a, pre {*/
-        /*font-family: "Courier New";*/
-        /*font-size: 20pt;*/
-    /*}*/
 
-    .main .about_me_one{
+    .main .about_me_one {
         position: relative;
     }
 
-    .main .about_me_one p {
-        margin-bottom: 0px;
-    }
+        .main .about_me_one p {
+            margin-bottom: 0px;
+        }
 
     .main .image_fon {
         width: 100%;
@@ -180,45 +167,50 @@ nav {
 
         .main .text .center {
             position: absolute;
-            /*top: 40%;*/
             color: #CCCCCC;
-            /*font-size: 2pt;*/
             width: 100%;
             text-align: center;
         }
 
         .main .text .download {
             position: absolute;
-            /*top: 70%;*/
             width: 100%;
             text-align: center;
             color: #CCCCCC;
-            /*font-size: 18pt;*/
         }
 
-        .main .text .download p {
-            margin: 5px;
-        }
+            .main .text .download p {
+                margin: 5px;
+            }
+
+            .main .text .download a {
+                color: #CCCCCC;
+
+            }
+
+            .main .text .download a:hover {
+                color: #CCCCCC;
+                text-decoration: underline !important;
+            }
 
         .main .text .social_network {
             position: absolute;
-            /*bottom: 50px;*/
             width: 100%;
             text-align: center;
         }
-        .main .text .social_network li {
-            display: inline-block;
-        }
 
+            .main .text .social_network li {
+                display: inline-block;
+            }
 
+    .main .padding {
+        padding-left: 15px;
+    }
 
-        .main .padding {
-            padding-left: 15px;
-        }
+    .main a:hover {
+        color: #698353;
+    }
 
-        .main a:hover {
-            color: #698353;
-        }
 
 footer {
     position: fixed;
@@ -234,75 +226,53 @@ footer {
 }
 
 
-
-/*// Экстрамалые девайсы («портретные телефоны», < 576px)*/
 @media (max-width: 575.98px) {
-
-    /*header span{*/
-        /*font-family: Arial;*/
-    /*}*/
-
-    /*header img {*/
-        /*height: 30px;*/
-    /*}*/
-
-    /*header .folder {*/
-        /*height: 30px;*/
-    /*}*/
-
-    /*nav span {*/
-        /*font-size: 11pt;*/
-    /*}*/
-
-    /*nav img {*/
-        /*height: 1px;*/
-    /*}*/
-
     nav .tab {
         margin-left: 30px;
     }
 
-    nav .sp_nav, .sp {
-        margin-left: 20px;
-    }
+        nav .sp_nav, .sp {
+            margin-left: 20px;
+        }
 
     .main .drop_menu .left {
         margin-bottom: 0px;
         padding-top: 4px;
     }
 
-    .main .text .center {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 9pt;
-        top: 40%;
-    }
+        .main .text .center {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 9pt;
+            top: 40%;
+        }
 
-    .main .text .download {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 6pt;
-        top: 72%;
-    }
+            .main .text .download {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 6pt;
+                top: 72%;
+            }
 
-    .main .text .download img{
-        height: 9pt;
-    }
+            .main .text .download img {
+                height: 9pt;
+            }
 
-    .main .social_network {
-        bottom: 10px;
-    }
+        .main .social_network {
+            bottom: 10px;
+        }
 
-    .main .social_network img{
-      height: 10pt;
-    }
+            .main .social_network img {
+                height: 10pt;
+            }
 
-    .main .about_me_two pre {
-        font-size: 6pt!important;
-    }
+        .main .about_me_two pre {
+            font-size: 6pt !important;
+        }
 
-    .main, .main span,.main a,.main pre {
-        font-family: "Courier New";
-        font-size: 8pt;
-    }
+        .main, .main span, .main a, .main pre {
+            font-family: "Courier New";
+            font-size: 8pt;
+        }
+
 
     footer {
         height: 10px;
@@ -310,84 +280,70 @@ footer {
 
 }
 
-/*// Малые девайсы («ландшафтные», >= 575px)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
 
+@media (min-width: 576px) and (max-width: 767.98px) {
     nav .tab {
         margin-left: 40px;
     }
 
-    nav .sp_nav, .sp {
-        margin-left: 30px;
-    }
+        nav .sp_nav, .sp {
+            margin-left: 30px;
+        }
 
-    nav span {
-        font-size: 12pt;
-    }
+        nav span {
+            font-size: 12pt;
+        }
 
     .main .drop_menu .left {
         margin-bottom: 0px;
         padding-top: 4px;
     }
 
-    .main .text .center {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 17pt;
-        top: 40%;
-    }
+        .main .text .center {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 17pt;
+            top: 40%;
+        }
 
-    .main .text .download {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 12pt;
-        top: 72%;
-    }
+            .main .text .download {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 12pt;
+                top: 72%;
+            }
 
-    .main .text .download img{
-        height: 12pt;
-    }
+            .main .text .download img {
+                height: 12pt;
+            }
 
-    .main .social_network {
-        bottom: 10px;
-    }
+        .main .social_network {
+            bottom: 10px;
+        }
 
-    .main .social_network img{
-      height: 20px;
-    }
+            .main .social_network img {
+                height: 20px;
+            }
 
-    .main, .main span,.main a,.main pre {
-        font-family: "Courier New";
-        font-size: 12pt;
-    }
-
-    /*footer {*/
-        /*height: 20px;*/
-    /*}*/
-
+        .main, .main span, .main a, .main pre {
+            font-family: "Courier New";
+            font-size: 12pt;
+        }
 }
 
-/*// Средние девайсы («таблетки», >= 768px) */
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-  nav .tab {
+    nav .tab {
         margin-left: 25px;
     }
 
-    /*nav .sp_nav, .sp {*/
-        /*margin-left: 10px;*/
-    /*}*/
+        nav span {
+            font-size: 10pt;
+        }
 
-    nav span {
-        font-size: 10pt;
-    }
-
-    /*.main .drop_menu .left {*/
-        /*margin-bottom: 0px;*/
-        /*padding-top: 4px;*/
-    /*}*/
-    nav {
-        border-right-width: 1px;
-        border-right-style: solid;
-        background-color: #3c3f41;
-    }
+        nav {
+            border-right-width: 1px;
+            border-right-style: solid;
+            background-color: #3c3f41;
+        }
 
     .main .text .center {
         font-family: 'Quicksand', sans-serif;
@@ -395,54 +351,49 @@ footer {
         top: 40%;
     }
 
-    .main .text .download {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 12pt;
-        top: 72%;
-    }
+            .main .text .download {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 12pt;
+                top: 72%;
+            }
 
-    .main .text .download img{
-        height: 12pt;
-    }
+            .main .text .download img {
+                height: 12pt;
+            }
 
-    .main .social_network {
-        bottom: 10px;
-    }
+        .main .social_network {
+            bottom: 10px;
+        }
 
-    .main .social_network img{
-      height: 20px;
-    }
+            .main .social_network img {
+                height: 20px;
+            }
 
-    .main, .main span,.main a,.main pre {
-        font-family: "Courier New";
-        font-size: 13pt;
-    }
-
+        .main, .main span, .main a, .main pre {
+            font-family: "Courier New";
+            font-size: 13pt;
+        }
 }
 
-/*// Большие девайсы (большие десктопы, >= 992px)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     nav .tab {
         margin-left: 30px;
     }
 
-    nav .sp_nav, .sp {
-        margin-left: 10px;
-    }
+        nav .sp_nav, .sp {
+            margin-left: 10px;
+        }
 
-    nav span {
-        font-size: 10pt;
-    }
+        nav span {
+            font-size: 10pt;
+        }
 
-    /*.main .drop_menu .left {*/
-    /*margin-bottom: 0px;*/
-    /*padding-top: 4px;*/
-    /*}*/
-    nav {
-        border-right-width: 1px;
-        border-right-style: solid;
-        background-color: #3c3f41;
-    }
+        nav {
+            border-right-width: 1px;
+            border-right-style: solid;
+            background-color: #3c3f41;
+        }
 
     .main .text .center {
         font-family: 'Quicksand', sans-serif;
@@ -450,54 +401,49 @@ footer {
         top: 40%;
     }
 
-    .main .text .download {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 15pt;
-        top: 72%;
-    }
+        .main .text .download {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 15pt;
+            top: 72%;
+        }
 
-    .main .text .download img {
-        height: 15pt;
-    }
+            .main .text .download img {
+                height: 15pt;
+            }
 
-    .main .social_network {
-        bottom: 10px;
-    }
+        .main .social_network {
+            bottom: 10px;
+        }
 
-    .main .social_network img {
-        height: 25px;
-    }
+            .main .social_network img {
+                height: 25px;
+            }
 
-    .main, .main span,.main a,.main pre {
-        font-family: "Courier New";
-        font-size: 15pt;
-    }
-
+        .main, .main span, .main a, .main pre {
+            font-family: "Courier New";
+            font-size: 15pt;
+        }
 }
 
-/*// Большие девайсы (большие десктопы, >= 1200px)*/
+
 @media (min-width: 1200px) {
     nav .tab {
         margin-left: 30px;
     }
 
-    nav .sp_nav, .sp {
-        margin-left: 10px;
-    }
+        nav .sp_nav, .sp {
+            margin-left: 10px;
+        }
 
-    nav span {
-        font-size: 10pt;
-    }
+        nav span {
+            font-size: 10pt;
+        }
 
-    /*.main .drop_menu .left {*/
-        /*margin-bottom: 0px;*/
-        /*padding-top: 4px;*/
-    /*}*/
-    nav {
-        border-right-width: 1px;
-        border-right-style: solid;
-        background-color: #3c3f41;
-    }
+        nav {
+            border-right-width: 1px;
+            border-right-style: solid;
+            background-color: #3c3f41;
+        }
 
     .main .text .center {
         font-family: 'Quicksand', sans-serif;
@@ -505,30 +451,26 @@ footer {
         top: 40%;
     }
 
-    .main .text .download {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 18pt;
-        top: 72%;
-    }
-
-    .main .text .download img{
-        height: 18pt;
-    }
-
-    .main .social_network {
-        bottom: 30px;
-    }
-
-    /*.main .social_network img{*/
-      /*height: 25px;*/
-    /*}*/
-
-    .main, .main span,.main a,.main pre {
-        font-family: "Courier New";
-        font-size: 18pt;
-    }
-    .main .padding {
-            padding-left: 40px;
+        .main .text .download {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 18pt;
+            top: 72%;
         }
 
+            .main .text .download img {
+                height: 18pt;
+            }
+
+        .main .social_network {
+            bottom: 30px;
+        }
+
+        .main, .main span, .main a, .main pre {
+            font-family: "Courier New";
+            font-size: 18pt;
+        }
+
+        .main .padding {
+            padding-left: 40px;
+        }
 }
