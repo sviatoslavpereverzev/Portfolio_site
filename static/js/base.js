@@ -60,27 +60,6 @@ scrollTop: $(anchor.attr('href')).offset().top-32
 e.preventDefault();
 });
 
-// $(document).ready(function () {
-//     $('.drop_menu ').bind("click", function () {
-//         alert();
-//         showOrNot = drop_menu(showOrNot);
-//
-//         function drop_menu(showOrNot) {
-//             if (showOrNot) {
-//                 $(' nav ').attr('style', 'display: block !important')
-//                 return false
-//             }
-//             else {
-//                 $(' nav ').attr('style', 'display: none !important')
-//                 return true
-//             }
-//         }
-//     });
-// });
-//
-// function bly() {
-//     $(' nav ').attr('style', 'display: block !important')
-// }
 
 if ($(window).width() < '768') {
     $(' #dm ').attr('style', 'display: block !important');
