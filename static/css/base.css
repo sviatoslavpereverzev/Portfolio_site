@@ -67,7 +67,7 @@ header span {
     }
 
 nav {
-    z-index: 2;
+    z-index: 999;
     position: fixed !important;
     top: 32px;
     height: 100%;
@@ -159,10 +159,10 @@ nav {
 
     .main .text {
         position: absolute;
-        right: 0;
+        left: 0px;
         top: 0;
         height: 100%;
-        width: 60%;
+        width: 50%;
     }
 
         .main .text .center {
@@ -242,7 +242,7 @@ footer {
 
         .main .text .center {
             font-family: 'Quicksand', sans-serif;
-            font-size: 9pt;
+            font-size: 8pt;
             top: 40%;
         }
 
@@ -347,7 +347,7 @@ footer {
 
     .main .text .center {
         font-family: 'Quicksand', sans-serif;
-        font-size: 15pt;
+        font-size: 13pt;
         top: 40%;
     }
 
@@ -367,6 +367,11 @@ footer {
 
             .main .social_network img {
                 height: 20px;
+                padding: 2px!important;
+            }
+
+            main .social_network a {
+                padding: 2px;
             }
 
         .main, .main span, .main a, .main pre {
@@ -471,6 +476,10 @@ footer {
         }
 
         .main .padding {
+            padding-left: 40px;
+        }
+
+        .main .str .tab {
             padding-left: 40px;
         }
 }

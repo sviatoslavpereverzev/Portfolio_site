@@ -1,7 +1,9 @@
 var block;
 var showOrNot;
+var showOrNotDrop;
 var imageblock;
-showOrNot = true;
+showOrNot = false;
+showOrNotDrop = true;
 
 
 $('nav .sp').click(function () {
@@ -35,16 +37,12 @@ $('nav .front_end').click(function () {
 });
 
 function hide(block, showOrNot) {
-    if ($(window).width() <= '720') {
-        return true
-    }
     if (showOrNot) {
         $(block).css('display', 'block')
         $(imageblock).attr('src', 'static/image/arrow_down.png')
         return false
     }
     else {
-        alert('lll')
         $(block).css('display', 'none')
         $(imageblock).attr('src', 'static/image/arrow_aside.png')
         return true
@@ -60,13 +58,12 @@ scrollTop: $(anchor.attr('href')).offset().top-32
 e.preventDefault();
 });
 
-
 if ($(window).width() < '768') {
     $(' #dm ').attr('style', 'display: block !important');
-    $('.drop_menu, nav ').bind("click", function () {
-        showOrNot = drop_menu(showOrNot);
-        function drop_menu(showOrNot) {
-            if (showOrNot) {
+    $('.drop_menu, .project, .scroll').bind("click", function () {
+        showOrNotDrop = drop_menu(showOrNotDrop);
+        function drop_menu(showOrNotDrop) {
+            if (showOrNotDrop) {
                 $(' nav ').attr('style', 'display: block !important');
                 return false
             }
