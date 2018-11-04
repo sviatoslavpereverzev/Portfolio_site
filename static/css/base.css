@@ -402,7 +402,7 @@ footer {
 
     .main .text .center {
         font-family: 'Quicksand', sans-serif;
-        font-size: 20pt;
+        font-size: 17pt;
         top: 40%;
     }
 
@@ -459,7 +459,7 @@ footer {
         .main .text .download {
             font-family: 'Quicksand', sans-serif;
             font-size: 18pt;
-            top: 72%;
+            top: 70%;
         }
 
             .main .text .download img {
@@ -467,7 +467,7 @@ footer {
             }
 
         .main .social_network {
-            bottom: 30px;
+            bottom: 100px;
         }
 
         .main, .main span, .main a, .main pre {
