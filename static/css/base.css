@@ -67,7 +67,7 @@ header span {
     }
 
 nav {
-    z-index: 999;
+    z-index: 99;
     position: fixed !important;
     top: 32px;
     height: 100%;
@@ -218,13 +218,12 @@ footer {
     bottom: 0;
     width: 100%;
     height: 21px;
-    z-index: 3;
+    z-index: 999;
     background-color: #3c3f41;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: #464646;
 }
-
 
 @media (max-width: 575.98px) {
     nav .tab {
@@ -275,8 +274,15 @@ footer {
 
 
     footer {
-        height: 10px;
+        height: 16px;
     }
+
+        footer p {
+            margin-left: 2px;
+            font-family: Roboto;
+            font-size: 8pt;
+            color: #6e6f6f;
+        }
 
 }
 
@@ -326,6 +332,13 @@ footer {
         .main, .main span, .main a, .main pre {
             font-family: "Courier New";
             font-size: 12pt;
+        }
+
+         footer p {
+            margin-left: 5px;
+            font-family: Roboto;
+            font-size: 10pt;
+            color: #6e6f6f;
         }
 }
 
@@ -378,6 +391,13 @@ footer {
             font-family: "Courier New";
             font-size: 13pt;
         }
+
+        footer p {
+            margin-left: 10px;
+            font-family: Roboto;
+            font-size: 11pt;
+            color: #6e6f6f;
+        }
 }
 
 
@@ -427,6 +447,13 @@ footer {
         .main, .main span, .main a, .main pre {
             font-family: "Courier New";
             font-size: 15pt;
+        }
+
+        footer p {
+            margin-left: 10px;
+            font-family: Roboto;
+            font-size: 11pt;
+            color: #6e6f6f;
         }
 }
 
@@ -481,5 +508,12 @@ footer {
 
         .main .str .tab {
             padding-left: 40px;
+        }
+
+        footer p {
+            margin-left: 15px;
+            font-family: Roboto;
+            font-size: 11pt;
+            color: #6e6f6f;
         }
 }
